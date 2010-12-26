@@ -7,6 +7,8 @@ An extension to "Fake-Operator":https://github.com/NSPwn/Fake-Operator
 
 Credit to "this site":http://george.insideiphone.com/index.php/2007/11/25/a-convenient-tool-to-send-at-commands for the source code of sendmodem.
 
+!http://www.f-77.com/wp-content/uploads/2010/12/photo-200x300.png(BalanceAsOperator screenshot)!
+
 h3. Install
 
 Download the .deb package from the 'Downloads' link on this page, and install with $ dpkg -i << package >>.deb
