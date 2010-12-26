@@ -1,0 +1,10 @@
+Package: hk.ndb.balanceasoperator
+Name: BalanceAsOperator
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Launchd recurring task to display current prepaid balance instead of operator. Requires 'Fake Operator'. 
+Homepage: http://github.com/ndbroadbent/quickscrollplus
+Maintainer: NathanB <www.f-77.com>
+Author: NathanB <www.f-77.com>
+Depends: mobilesubstrate, com.nspwn.fakeoperator (>=1.0.1)
+Section: Tweaks

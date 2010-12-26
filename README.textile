@@ -1,0 +1,30 @@
+h1. BalanceAsOperator
+
+Replace Operator on iOS 4.x with current prepaid balance.
+Specifically written for PCCW in Hong Kong, with an AT+CUSD command of "##122#".
+
+An extension to "Fake-Operator":https://github.com/NSPwn/Fake-Operator
+
+Credit to "this site":http://george.insideiphone.com/index.php/2007/11/25/a-convenient-tool-to-send-at-commands for the source code of sendmodem.
+
+h3. How it works
+
+Package contains an executable binary that sends an AT USSD command to the carrier, which returns the balance message. Program then replaces the carrier name in the top left corner with the parsed balance. It does this by altering the com.nspwn.fakeoperatorpreferences plist, and then notifying FakeOperator to update SpringBoard.
+
+Also includes a launchd script that schedules the program to be executed every half hour.
+
+h3. Tags
+
+This project might also be useful if you need to learn how to:
+
+* Compile an iPhone program for iOS 4.1/4.2
+* Run a script or application on iOS 4.1/4.2 at a scheduled interval (with launchd)
+* Send AT commands to the iPhone/iPad modem (programmatically send SMS/dial numbers/etc)
+* Write plist files to alter preferences for another application
+
+h3. Why
+
+My carrier (PCCW) doesn't believe in sending SMS alerts when my balance is about to, or even has, run out. I've emailed them about it, but thats just the way it is. So I thought this would be a better alternative to getting a new number.
+
+
+Would be happy to help anyone alter this for their own carriers, if requested. However, some operators do weird stuff like SMS every time you send an AT command like this, so that would be annoying.
