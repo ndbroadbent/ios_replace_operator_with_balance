@@ -7,6 +7,10 @@ An extension to "Fake-Operator":https://github.com/NSPwn/Fake-Operator
 
 Credit to "this site":http://george.insideiphone.com/index.php/2007/11/25/a-convenient-tool-to-send-at-commands for the source code of sendmodem.
 
+h3. Install
+
+Download the .deb package from here, and install with $ dpkg -i << package >>.deb
+
 h3. How it works
 
 Package contains an executable binary that sends an AT USSD command to the carrier, which returns the balance message. Program then replaces the carrier name in the top left corner with the parsed balance. It does this by altering the com.nspwn.fakeoperatorpreferences plist, and then notifying FakeOperator to update SpringBoard.
