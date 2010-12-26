@@ -9,7 +9,7 @@ Credit to "this site":http://george.insideiphone.com/index.php/2007/11/25/a-conv
 
 h3. Install
 
-Download the .deb package from here, and install with $ dpkg -i << package >>.deb
+Download the .deb package from the 'Downloads' link on this page, and install with $ dpkg -i << package >>.deb
 
 h3. How it works
 
