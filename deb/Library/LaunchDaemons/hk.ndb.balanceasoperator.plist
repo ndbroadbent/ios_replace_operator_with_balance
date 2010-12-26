@@ -7,7 +7,7 @@
 	<key>OnDemand</key>
 	<true/>
 	<key>RunAtLoad</key>
-	<true/>
+        <false/>
 	<key>ProgramArguments</key>
 	<array>
 		<string>/usr/bin/BalanceAsOperator</string>
